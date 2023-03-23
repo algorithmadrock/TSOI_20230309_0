@@ -6,13 +6,13 @@ DATA        : 09/03/2023
 
 package controller;
 
-public class ThreadVetor extends Thread{
+public class TV extends Thread{
 
 	private int[] v;
 	private int n;
 //	por serem privados,os valores são atribuidos usando o "this."
 	
-	public ThreadVetor(int numero, int[] vetor) {
+	public TV(int numero, int[] vetor) {
 //		parâmetros de thread sempre são passados/recebidos pelo método construtor
 		this.v = vetor;
 		this.n = numero;
