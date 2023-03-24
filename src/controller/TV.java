@@ -31,12 +31,10 @@ public class TV extends Thread{
 
 	private double impar() {
 		double inicial = System.nanoTime();
-		int tamanho = v.length;
-		for(int i =0; i < tamanho; i++ ) {
+		for(int i = 0; i < v.length; i++ ) {
 //			não tenho nenhuma ação específica para executar aqui dentro
 		}
 		double finale = System.nanoTime();
-		
 		return ((finale - inicial) /Math.pow(10, 9));
 	}
 
